@@ -17,8 +17,8 @@ Create a python-2.6 application and add a MongoDB cartridge to the app
 Add this upstream flask repo
 
 
-    cd pythonws
-    git remote add upstream -m master git://github.com/openshift/openshift-mongo-flask-example.git
+    cd nodews
+    git remote add upstream -m master https://github.com/openshift/openshift-mongo-node-express-example.git
     git pull -s recursive -X theirs upstream master
     
 Then push the repo upstream
