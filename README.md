@@ -9,7 +9,7 @@ Running on OpenShift
 
 Create an account at http://openshift.redhat.com/
 
-Create a python-2.6 application and add a MongoDB cartridge to the app
+Create a Node.js application and add a MongoDB cartridge to the app
 
     rhc app create nodews nodejs-0.6
     rhc cartridge add mongodb-2.2 --app nodews
