@@ -12,7 +12,7 @@ Create an account at http://openshift.redhat.com/
 Create a Node.js application and add a MongoDB cartridge to the app
 
     rhc app create nodews nodejs-0.6
-    rhc cartridge add mongodb-2.2 --app nodews
+    rhc cartridge add mongodb-2 --app nodews
 
 Add this upstream flask repo
 
