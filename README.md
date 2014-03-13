@@ -1,13 +1,13 @@
 #The code to accompany the Spatial Node Mongo blog piece
 
-This code actually belongs to a [blog piece](https://openshift.redhat.com/community/blogs/using-nodejs-mongodb-express-for-your-spatial-web-service-and-its-free) written on OpenShift.com 
+This code actually belongs to a [blog piece](https://www.openshift.com/blogs/set-up-nodejs-mongodb-and-express-on-free-spatial-web-hosting) written on OpenShift.com 
 
 ========
 
 Running on OpenShift
 ----------------------------
 
-Create an account at http://openshift.redhat.com/
+Create an account at https://www.openshift.com
 
 Create a Node.js application with MongoDB
 
