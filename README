@@ -5,7 +5,7 @@ Repo layout
 node_modules/                       - Any Node modules packaged with the app
 deplist.txt                         - Deprecated.
 package.json                        - npm package descriptor.
-.openshift/                         - Location for openshift specific files
+.openshift/                         - Location for OpenShift specific files
 .openshift/action_hooks/pre_build   - Script that gets run every git push before
                                       the build
 .openshift/action_hooks/build       - Script that gets run every git push as
