@@ -17,7 +17,7 @@ Add this upstream flask repo
 
 
     cd nodews
-    git remote add upstream -m master https://github.com/openshift/openshift-mongo-node-express-example.git
+    git remote add upstream -m master https://github.com/openshift-quickstart/openshift-mongo-node-express-example.git
     git pull -s recursive -X theirs upstream master
     
 Then push the repo upstream
