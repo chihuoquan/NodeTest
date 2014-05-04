@@ -59,8 +59,3 @@ deplist.txt
 A list of node modules to install, line by line on the server. This will happen
 when the user does a git push.
 
-
-Additional information
-======================
-Link to additional information will be here, when we have it :)
-
