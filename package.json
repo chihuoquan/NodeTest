@@ -11,12 +11,12 @@
   "author": {
     "name": "OpenShift",
     "email": "ramr@example.org",
-    "url": "http://www.openshift.com/"
+    "url":  "https://www.openshift.com/"
   },
-  "homepage": "http://www.openshift.com/",
+  "homepage": "https://www.openshift.com/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openshift/origin-server"
+    "url": "https://gitub.com/openshift/crankcase"
   },
 
   "engines": {
@@ -25,7 +25,8 @@
   },
 
   "dependencies": {
-    "express": "~3.4.4"
+  	  "mongodb" : "> 1.1.10" ,
+      "express" : ">3.0.0rc4"
   },
   "devDependencies": {},
   "bundleDependencies": [],
