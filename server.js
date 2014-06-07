@@ -33,7 +33,6 @@ var App = function() {
     self.routes['helloworld'] = function(req, res) {
         console.log(self.db.collection('helloworld').find({}).fields);
         self.db.collection('helloworld').find({}).toArray(function(err, docs) {
-            console.log(docs);
             res.header("Content-Type:", "application/json");
             res.end(JSON.stringify(docs));
         });
@@ -51,7 +50,6 @@ var App = function() {
                     console.log("mongodb connected auth error");
                     throw err
                 };
-                console.log(self.db.collection('helloworld'));
                 console.log("mongodb connected");
                 callback();
             });
