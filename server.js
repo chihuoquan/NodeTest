@@ -44,7 +44,9 @@ var App = function() {
 
     self.connectDb = function(callback) {
         self.db.open(function(err, db) {
-            self.db.authenticate(self.dbUser, self.dbPass, {}, function(err, res) {
+            self.db.authenticate(self.dbUser, self.dbPass, {
+                authdb: "admin"
+            }, function(err, res) {
 
                 if (err) {
                     console.log("mongodb connected auth error");
