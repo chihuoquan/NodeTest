@@ -25,7 +25,7 @@ var App = function() {
 
 
     self.routes['root'] = function(req, res) {
-        res.header("Content-Type:", "text/html");
+        res.setHeader("Content-Type", "text/html");
         res.send('<h1>hello world nodejs+mongodb API</h1><p><a href="helloworld">Get Mongodb Hello Word</a></p>');
     };
 
