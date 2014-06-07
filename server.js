@@ -33,7 +33,7 @@ var App = function() {
     self.routes['helloworld'] = function(req, res) {
         console.log(self.db.collection('helloworld').find({}).fields);
         self.db.collection('helloworld').find({}).toArray(function(err, docs) {
-            res.header("Content-Type:", "application/json");
+            res.setHeader("Content-Type:", "application/json");
             res.end(JSON.stringify(docs));
         });
     };
